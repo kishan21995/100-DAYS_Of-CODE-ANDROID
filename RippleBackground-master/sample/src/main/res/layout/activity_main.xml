@@ -1,0 +1,126 @@
+<com.skyfishjy.library.RippleBackground
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3c3b3f"
+    android:layout_height="match_parent"
+    android:id="@+id/content"
+    app:rb_color="#da22ff"
+    app:rb_radius="32dp"
+    app:rb_rippleAmount="6"
+    app:rb_duration="3000"
+    app:rb_scale="6">
+
+    <ImageView
+        android:id="@+id/foundDevice1"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/centerImage"
+        android:layout_marginStart="72dp"
+        android:src="@drawable/phone8"
+        android:visibility="invisible"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/ovals"
+        android:textColor="#FFF" />
+
+    <ImageView
+        android:id="@+id/centerImage"
+        android:layout_width="17dp"
+        android:layout_height="18dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/colorimg" />
+
+    <ImageView
+        android:id="@+id/foundDevice2"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="208dp"
+        android:src="@drawable/phone8"
+        android:visibility="invisible"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:id="@+id/foundDevice3"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="121dp"
+        android:layout_toEndOf="@+id/foundDevice1"
+        android:src="@drawable/phone8"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/foundDevice4"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/foundDevice7"
+        android:layout_alignTop="@+id/foundDevice5"
+        android:src="@drawable/phone8"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/foundDevice5"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="145dp"
+        android:src="@drawable/phone8"
+        android:visibility="invisible" />
+
+
+    <ImageView
+        android:id="@+id/foundDevice6"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_centerVertical="true"
+        android:src="@drawable/phone8"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/foundDevice7"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/foundDevice2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-206dp"
+        android:layout_marginEnd="42dp"
+        android:src="@drawable/phone8"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#1e130c"
+        android:text=""
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="143dp"
+        android:layout_height="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:background="@drawable/ovals"
+        android:textColor="#FFF" />
+
+</com.skyfishjy.library.RippleBackground>
