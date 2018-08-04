@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    tools:context="com.example.kishan_gupta.kidslearningapp.Main2Activity"
+    android:background="#e9c946">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:gravity="center"
+        android:text="English Speech"
+        android:textColor="#131313"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_margin="10px"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="2"
+            android:layout_marginRight="10px">
+
+
+            <ImageButton
+                android:id="@+id/lettersbutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/lettersbutton" />
+
+            <ImageButton
+                android:id="@+id/countingbutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:background="@drawable/countingbutton"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginRight="10px"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="1dp">
+
+
+            <ImageButton
+                android:id="@+id/bodybutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/bodybutton" />
+
+            <ImageButton
+                android:id="@+id/fruitsbutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/fruitsbutton" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginRight="10px"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp">
+
+
+            <ImageButton
+                android:id="@+id/vbutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/vbutton"
+
+                />
+
+            <ImageButton
+                android:id="@+id/colorbutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/clourbutton"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:layout_marginRight="10px"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.98">
+
+            <ImageButton
+                android:id="@+id/vibutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/vdbutton" />
+
+            <ImageButton
+                android:id="@+id/vidbutton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20px"
+                android:layout_weight="1"
+                android:background="@drawable/funbutton" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_below="@+id/textView"></RelativeLayout>
+
+    </RelativeLayout>
